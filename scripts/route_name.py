@@ -11,7 +11,6 @@ for route in routes['features']:
         route_id = id[0]
 
     route['properties']['id'] = route_id
-    # print route_id
 
 
 print json.dumps(routes)
